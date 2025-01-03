@@ -19,3 +19,7 @@ CREATE TABLE `UserRole` (
 
 -- AddForeignKey
 ALTER TABLE `UserData` ADD CONSTRAINT `UserData_roleId_fkey` FOREIGN KEY (`roleId`) REFERENCES `UserRole`(`id`) ON DELETE RESTRICT ON UPDATE CASCADE;
+
+INSERT INTO UserRole (name) VALUES ('client');
+INSERT INTO UserRole (name) VALUES ('user');
+INSERT INTO UserRole (name) VALUES ('admin');

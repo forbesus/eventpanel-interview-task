@@ -6,7 +6,8 @@
     "backend": "nx run backend:serve",
     "frontend": "nx run frontend:serve",
     "migration": "nx run backend:prisma-migrate",
-    "migrate": "nx run backend:prisma-generate"
+    "migrate": "nx run backend:prisma-generate",
+    "db-deploy": "nx run backend:prisma-deploy"
   },
   "private": true,
   "dependencies": {
