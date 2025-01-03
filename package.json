@@ -2,7 +2,12 @@
   "name": "@eventpanel-interview-task/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "backend": "nx run backend:serve",
+    "frontend": "nx run frontend:serve",
+    "migration": "nx run backend:prisma-migrate",
+    "migrate": "nx run backend:prisma-generate"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
