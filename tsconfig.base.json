@@ -17,7 +17,8 @@
     "paths": {
       "@eventpanel-interview-task/prisma-client": [
         "libs/prisma-client/src/index.ts"
-      ]
+      ],
+      "@eventpanel-interview-task/users": ["libs/backend/users/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
