@@ -4,6 +4,7 @@ export interface UserType {
   age: number;
   email: string;
   role: UserRoleType;
+  roleId: number;
 }
 
 export interface UserRoleType {
